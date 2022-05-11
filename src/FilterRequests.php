@@ -1,6 +1,6 @@
 <?php
 
-namespace Guerrilla\RequestFilters;
+namespace AndreyVasin\RequestFilters;
 
 /**
  * A trait that can be applied to any Laravel Request/FormRequest
@@ -12,7 +12,7 @@ namespace Guerrilla\RequestFilters;
  * ^ Will also have its input filtered using the rule provided in the 'filters()'
  * associative array.
  *
- * @package Guerrilla\RequestFilters
+ * @package AndreyVasin\RequestFilters
  */
 trait FilterRequests {
 

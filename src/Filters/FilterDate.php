@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 use Carbon\Carbon;
@@ -10,7 +10,7 @@ use Carbon\Carbon;
  * A request filter that can format an input date into a Carbon date string
  * using formatting found https://carbon.nesbot.com/docs/#api-formatting.
  *
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterDate implements FilterInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters\Sanitization;
+namespace AndreyVasin\RequestFilters\Filters\Sanitization;
 
-use Guerrilla\RequestFilters\Filters\FilterInterface;
+use AndreyVasin\RequestFilters\Filters\FilterInterface;
 
 /**
  * A request filter that can sanitize an input to encode and strip characters, normally
  * from a URL.
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterSanitizeEncoded implements FilterInterface
 {

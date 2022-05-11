@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 /**
  * A request filter that will filter an input to upper case
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterToUpper implements FilterInterface
 {

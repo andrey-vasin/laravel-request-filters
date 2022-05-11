@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters\Sanitization;
+namespace AndreyVasin\RequestFilters\Filters\Sanitization;
 
-use Guerrilla\RequestFilters\Filters\FilterInterface;
+use AndreyVasin\RequestFilters\Filters\FilterInterface;
 
 /**
  * A request filter that can escape text in various ways using the native php text filtering
@@ -14,7 +14,7 @@ use Guerrilla\RequestFilters\Filters\FilterInterface;
  * Example:
  * new FilterEscape([FILTER_SANITIZE_STRING, FILTER_SANITIZE_EMAIL]);
  *
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterSanitize implements FilterInterface
 {

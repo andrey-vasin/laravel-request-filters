@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 /**
  * A request filter that capitalizes the first letter of each words using UTF-8
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterCapitalize implements FilterInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 /**
  * A request filter that will filter out all non-numeric characters.
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterNumeric implements FilterInterface
 {

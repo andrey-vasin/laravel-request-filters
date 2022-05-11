@@ -1,18 +1,18 @@
 <?php
 
 use Carbon\Carbon;
-use Guerrilla\RequestFilters\Filters\FilterCapitalize;
-use Guerrilla\RequestFilters\Filters\FilterDate;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSanitize;
-use Guerrilla\RequestFilters\Filters\FilterNumeric;
-use Guerrilla\RequestFilters\Filters\FilterStripTags;
-use Guerrilla\RequestFilters\Filters\FilterToLower;
-use Guerrilla\RequestFilters\Filters\FilterToUpper;
-use Guerrilla\RequestFilters\Filters\FilterTrim;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSanitizeEmail;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSanitizeEncoded;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSantizeText;
-use Guerrilla\RequestFilters\InputFilter;
+use AndreyVasin\RequestFilters\Filters\FilterCapitalize;
+use AndreyVasin\RequestFilters\Filters\FilterDate;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSanitize;
+use AndreyVasin\RequestFilters\Filters\FilterNumeric;
+use AndreyVasin\RequestFilters\Filters\FilterStripTags;
+use AndreyVasin\RequestFilters\Filters\FilterToLower;
+use AndreyVasin\RequestFilters\Filters\FilterToUpper;
+use AndreyVasin\RequestFilters\Filters\FilterTrim;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSanitizeEmail;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSanitizeEncoded;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSantizeText;
+use AndreyVasin\RequestFilters\InputFilter;
 use PHPUnit\Framework\TestCase;
 
 class FilterTest extends TestCase

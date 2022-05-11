@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 /**
  * A request filter that will filter the text to lower case
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterToLower implements FilterInterface
 {

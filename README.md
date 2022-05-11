@@ -1,8 +1,6 @@
 
 # Laravel request filters
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/guerrilla/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/guerrilla/laravel-request-filters)
-[![Total Downloads](https://img.shields.io/packagist/dt/guerrilla/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/guerrilla/laravel-request-filters)
 
 ## About
 
@@ -63,11 +61,11 @@ You can make your own custom filters by implementing the ```FilterInterface``` :
 
 Import via composer:
 
-```composer require guerrilla/laravel-request-filters```
+```composer require andrey-vasin/laravel-request-filters```
 
 In your [FormRequest](https://laravel.com/docs/7.x/validation#form-request-validation) use the following trait:
 
-```use Guerrilla\RequestFilters\FilterRequests```
+```use AndreyVasin\RequestFilters\FilterRequests```
 
 Describe your filters (Laravel rules included for familiarisation):
 

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters;
+namespace AndreyVasin\RequestFilters;
 
 /**
  * Class RequestFiltering
- * @package Guerrilla\RequestFilters
+ * @package AndreyVasin\RequestFilters
  */
 class InputFilter
 {

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters\Sanitization;
+namespace AndreyVasin\RequestFilters\Filters\Sanitization;
 
 
-use Guerrilla\RequestFilters\Filters\FilterInterface;
+use AndreyVasin\RequestFilters\Filters\FilterInterface;
 
 /**
  * A request filter that will sanitize input to remove tags and special characters.
- * @package Guerrilla\RequestFilters\Filters\Sanitization
+ * @package AndreyVasin\RequestFilters\Filters\Sanitization
  */
 class FilterSantizeText implements FilterInterface
 {

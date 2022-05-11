@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters\Sanitization;
+namespace AndreyVasin\RequestFilters\Filters\Sanitization;
 
 
-use Guerrilla\RequestFilters\Filters\FilterInterface;
+use AndreyVasin\RequestFilters\Filters\FilterInterface;
 
 /**
  * A request filter than can be used to sanitize email input,
  * removing all illegal characters from an email address.
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterSanitizeEmail implements FilterInterface
 {

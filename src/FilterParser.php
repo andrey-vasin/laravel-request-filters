@@ -1,26 +1,26 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters;
+namespace AndreyVasin\RequestFilters;
 
-use Guerrilla\RequestFilters\Filters\FilterCapitalize;
-use Guerrilla\RequestFilters\Filters\FilterDate;
-use Guerrilla\RequestFilters\Filters\FilterInterface;
-use Guerrilla\RequestFilters\Filters\FilterNumeric;
-use Guerrilla\RequestFilters\Filters\FilterStripTags;
-use Guerrilla\RequestFilters\Filters\FilterToLower;
-use Guerrilla\RequestFilters\Filters\FilterToUpper;
-use Guerrilla\RequestFilters\Filters\FilterTrim;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSanitizeEmail;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSanitizeEncoded;
-use Guerrilla\RequestFilters\Filters\Sanitization\FilterSantizeText;
+use AndreyVasin\RequestFilters\Filters\FilterCapitalize;
+use AndreyVasin\RequestFilters\Filters\FilterDate;
+use AndreyVasin\RequestFilters\Filters\FilterInterface;
+use AndreyVasin\RequestFilters\Filters\FilterNumeric;
+use AndreyVasin\RequestFilters\Filters\FilterStripTags;
+use AndreyVasin\RequestFilters\Filters\FilterToLower;
+use AndreyVasin\RequestFilters\Filters\FilterToUpper;
+use AndreyVasin\RequestFilters\Filters\FilterTrim;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSanitizeEmail;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSanitizeEncoded;
+use AndreyVasin\RequestFilters\Filters\Sanitization\FilterSantizeText;
 use ReflectionClass;
 use ReflectionMethod;
 
 /**
  * A tool to parse various inputs into a format that can be used when using the InputFilter.
  *
- * @package Guerrilla\RequestFilters
+ * @package AndreyVasin\RequestFilters
  */
 class FilterParser
 {

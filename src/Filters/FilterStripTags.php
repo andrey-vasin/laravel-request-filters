@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Guerrilla\RequestFilters\Filters;
+namespace AndreyVasin\RequestFilters\Filters;
 
 
 /**
@@ -13,7 +13,7 @@ namespace Guerrilla\RequestFilters\Filters;
  * Example:
  * new FilterStripTags('<a><p>')
  *
- * @package Guerrilla\RequestFilters\Filters
+ * @package AndreyVasin\RequestFilters\Filters
  */
 class FilterStripTags implements FilterInterface
 {
